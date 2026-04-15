@@ -1,3 +1,5 @@
+# work for linux
+
 #!/bin/bash
 
 # ZomCleaner Environment Setup

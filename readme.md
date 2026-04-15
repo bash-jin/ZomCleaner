@@ -6,7 +6,14 @@ ZomCleaner is a lightweight, web-based "reaper" designed to monitor and optimize
 
 ### 1. Linux Environment (`Clean0.go`)
 Designed for direct kernel-level interaction via the `/proc` filesystem.
-* **Action:** Open terminal and execute:
+
+Create folder with Clean0.go and setup.sh
+
+* **Action:** Open terminal in the directory and execute:
+    `chmod +x setup.sh`
+  then run
+    `./setup.sh`
+  and then
     `go run Clean0.go`
 
 ### 2. Windows Environment (`Clean1.go`)

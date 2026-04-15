@@ -149,3 +149,5 @@ Start-Job -ScriptBlock {
 
 # Run binary in foreground
 & ".\$BinaryName"
+
+# Use "Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser" command 
